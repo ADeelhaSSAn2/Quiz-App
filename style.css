@@ -1,0 +1,30 @@
+:root{
+    --green:#27ae60;
+    --black:#444;
+    --light-color:#ffffff;
+    --bg-color:#ffffff;
+    --border:.1rem solid rgba(0,0,0,.2);
+    --box-shadow:.4rem .4rem 1rem #ccc,
+                 -.4rem -.4rem 1rem #ffffff;
+    --box-shadow-inset:.4rem .4rem 1rem #ccc inset,
+                 -.4rem -.4rem 1rem #fff inset;
+}
+
+.navbar{
+    height: 80px!important;
+    background-color: #fff!important;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12), inset 0 -1px 0 0 #dadce0;
+}
+.heading{
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+.row{
+
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.card{
+    text-align: center;
+}
